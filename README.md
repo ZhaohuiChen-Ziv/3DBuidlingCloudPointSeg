@@ -53,5 +53,11 @@ class SimplePointNet(nn.Module):
         x = self.mlp3(x)
         x = self.fc(x)               # [B, num_classes, N]
         return x.permute(0, 2, 1)    # [B, N, num_classes]
-![Prediction](<img width="403" height="416" alt="image" src="https://github.com/user-attachments/assets/f20b073c-28cc-4028-8a28-98a49c8dda3a" />
-)
+
+## 📊 Results
+
+Ground Truth vs Prediction
+
+| Ground Truth | Prediction |
+|--------------|------------|
+| ![](results/groundtruth.png) | ![](results/prediction.png) |
