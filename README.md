@@ -58,8 +58,8 @@ class SimplePointNet(nn.Module):
 
 **Ground Truth**
 
-![](results/groundtruth.png)
+ ![](https://github.com/ZhaohuiChen-Ziv/3DBuidlingCloudPointSeg/edit/main/results/groundtruth.png)
 
 **Prediction**
 
-![](results/prediction.png)
+ ![](https://github.com/ZhaohuiChen-Ziv/3DBuidlingCloudPointSeg/edit/main/results/prediction.png)
