@@ -56,8 +56,10 @@ class SimplePointNet(nn.Module):
 
 ## 📊 Results
 
-Ground Truth vs Prediction
+**Ground Truth**
 
-| Ground Truth | Prediction |
-|--------------|------------|
-| ![](results/groundtruth.png) | ![](results/prediction.png) |
+![](results/groundtruth.png)
+
+**Prediction**
+
+![](results/prediction.png)
