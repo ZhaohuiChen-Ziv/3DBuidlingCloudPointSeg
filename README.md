@@ -53,13 +53,3 @@ class SimplePointNet(nn.Module):
         x = self.mlp3(x)
         x = self.fc(x)               # [B, num_classes, N]
         return x.permute(0, 2, 1)    # [B, N, num_classes]
-
-## 📊 Results
-
-**Ground Truth**
-
- ![](https://github.com/ZhaohuiChen-Ziv/3DBuidlingCloudPointSeg/edit/main/results/groundtruth.png)
-
-**Prediction**
-
- ![](https://github.com/ZhaohuiChen-Ziv/3DBuidlingCloudPointSeg/edit/main/results/prediction.png)
